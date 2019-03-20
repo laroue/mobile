@@ -15,7 +15,7 @@ export class DeepLinkerMock {
 
 export class TranslateServiceMock {
 
-  public currentLang: string = 'en';
+  public currentLang: string = 'fr';
 
   public get(value: any): Observable<string> {
     return Observable.of(value);

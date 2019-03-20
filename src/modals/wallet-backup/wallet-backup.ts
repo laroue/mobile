@@ -101,7 +101,7 @@ export class WalletBackupModal {
 
   private generateAccountFromEntropy() {
     const account: AccountBackup = {};
-    const wordlist = bip39.wordlists[this.wordlistLanguage || 'english'];
+    const wordlist = bip39.wordlists[this.wordlistLanguage || 'french'];
 
     account.entropy = this.entropy;
     account.mnemonic = bip39.entropyToMnemonic(account.entropy, wordlist);

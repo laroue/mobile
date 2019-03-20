@@ -173,7 +173,7 @@ export class MyApp implements OnInit, OnDestroy {
 
   initTranslate() {
     // Set the default language for translation strings, and the current language.
-    this.translateService.setDefaultLang('en');
+    this.translateService.setDefaultLang('fr');
     this.settingsDataProvider.settings.subscribe(settings => {
       this.translateService.use(settings.language); // Set your language here
 

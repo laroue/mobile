@@ -120,7 +120,7 @@ export abstract class BaseWalletImport {
   }
 
   private validateMnemonic(passphrase: string) {
-    const wordlist = bip39.wordlists[this.wordlistLanguage || 'english'];
+    const wordlist = bip39.wordlists[this.wordlistLanguage || 'french'];
     if (bip39.validateMnemonic(passphrase, wordlist) || bip39.validateMnemonic(passphrase)) { return true; }
     return false;
   }

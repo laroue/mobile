@@ -85,7 +85,7 @@ export class SettingsDataProvider {
     const browserLang = this.translateService.getBrowserLang();
     const appLang = this.AVALIABLE_OPTIONS.languages[cultureLang] ? cultureLang
       : this.AVALIABLE_OPTIONS.languages[browserLang] ? browserLang
-      : 'en';
+      : 'fr';
 
     return UserSettings.defaults(appLang);
   }

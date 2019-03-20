@@ -7,7 +7,7 @@ import moment from 'moment';
 })
 export class TimestampHumanPipe implements PipeTransform {
 
-  private language = 'en';
+  private language = 'fr';
 
   constructor(settingsDataProvider: SettingsDataProvider) {
     settingsDataProvider.settings.subscribe((settings) => this.language = settings.language);

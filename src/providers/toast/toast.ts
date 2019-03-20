@@ -31,8 +31,8 @@ export class ToastProvider {
     private toastCtrl: ToastController,
     private translateService: TranslateService,
   ) {
-    translateService.setDefaultLang('en');
-    translateService.use('en');
+    translateService.setDefaultLang('fr');
+    translateService.use('fr');
   }
 
   error(message: string | TranslatableObject, hideDelay?: number, position?: string): void {
