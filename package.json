@@ -1,21 +1,21 @@
 {
-  "name": "ark-mobile",
-  "version": "1.4.1",
+  "name": "laroue",
+  "version": "0.0.1",
   "author": {
-    "name": "Lucio Rubens",
-    "email": "luciorubeens@gmail.com",
-    "url": "https://github.com/luciorubeens"
+    "name": "LaRoue",
+    "email": "contact@laroue.org",
+    "url": "https://github.com/laroue"
   },
   "contributors": [
     {
-      "name": "Alex Barnsley",
-      "email": "alex@ark.io",
-      "url": "https://github.com/alexbarnsley"
+      "name": "Luc Talarico",
+      "email": "lta@alaroue.org",
+      "url": "https://github.com/ockhamconsulting"
     }
   ],
-  "homepage": "https://github.com/ArkEcosystem/mobile-wallet#readme",
+  "homepage": "https://github.com/laroue/mobile-wallet#readme",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/mobile-wallet/issues"
+    "url": "https://github.com/laroue/mobile-wallet/issues"
   },
   "license": "MIT",
   "private": true,

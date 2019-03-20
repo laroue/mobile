@@ -1,10 +1,10 @@
 {
-  "name": "Ark Mobile",
-  "short_name": "Ark",
+  "name": "Mobile Wallet",
+  "short_name": "LaRoue",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo-no-shadow.png",
+    "src": "assets/imgs/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
